@@ -49,24 +49,32 @@ h1 {
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 450px) {
   .sidenav {
     padding-top: 15px;
+    width: 100px;
   }
   .sidenav a {
-    font-size: 18px;
+    font-size: x-small;
+  }
+  .sidenav p {
+    font-size: small;
   }
 }
-.picture img {
-  padding-left: 33%;
+.Hello {
+  padding-left: 30%;
   height: 35%;
   width: 35%;
 }
 @media screen and (max-width: 450px) {
-  .hello {
-    padding-left: 33%;
-    height: 50%;
-    width: 50%;
-    padding-top: 50%;
+  .Hello {
+    padding-left: 30%;
+    height: 60%;
+    width: 60%;
+    padding-top: 20%;
+  }
+  .title {
+    font-size: medium;
+    padding-left: 25%;
   }
 }
