@@ -62,3 +62,11 @@ h1 {
   height: 35%;
   width: 35%;
 }
+@media screen and (max-width: 450px) {
+  .hello {
+    padding-left: 33%;
+    height: 50%;
+    width: 50%;
+    padding-top: 50%;
+  }
+}

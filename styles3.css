@@ -55,7 +55,10 @@ h1 {
     width: 100px;
   }
   .sidenav a {
-    font-size: smaller;
+    font-size: x-small;
+  }
+  .sidenav p {
+    font-size: small;
   }
 }
 .gmail a img {
@@ -84,13 +87,12 @@ h1 {
 }
 @media screen and (max-width: 450px) {
   .gmail a img {
-    height: 30%;
-    width: 30%;
-    padding-left: 46%;
+    height: 40%;
+    width: 40%;
+    padding-left: 30%;
   }
   .gmail p {
-    padding-left: 45%;
-    font-size: smaller;
+    padding-left: 35%;
   }
   .linkedin-contact a img {
     height: 30%;
@@ -101,11 +103,16 @@ h1 {
     padding-left: 35%;
   }
   .github-contact a img {
-    height: 30%;
-    width: 30%;
-    padding-left: 35%;
+    height: 50%;
+    width: 50%;
+    padding-left: 25%;
   }
   .github-contact p {
     padding-left: 35%;
+  }
+  h1 {
+    text-align: center;
+    font-size: large;
+    padding-left: 10%;
   }
 }
