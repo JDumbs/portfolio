@@ -74,3 +74,11 @@ h1 {
 .linkedin-contact p {
   padding-left: 35%;
 }
+.github-contact a img {
+  height: 30%;
+  width: 30%;
+  padding-left: 35%;
+}
+.github-contact p {
+  padding-left: 35%;
+}
