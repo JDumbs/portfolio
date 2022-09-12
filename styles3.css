@@ -58,7 +58,6 @@ h1 {
   }
 }
 .gmail a img {
-  padding-left: 20%;
   height: 30%;
   width: 30%;
   padding-left: 36%;
@@ -81,4 +80,31 @@ h1 {
 }
 .github-contact p {
   padding-left: 35%;
+}
+@media screen and (max-height: 450px) {
+  .gmail a img {
+  height: 30%;
+  width: 30%;
+  padding-left: 46%;
+}
+.gmail p {
+  padding-left: 45%;
+  font-size: medium;
+}
+.linkedin-contact a img {
+  height: 30%;
+  width: 30%;
+  padding-left: 35%;
+}
+.linkedin-contact p {
+  padding-left: 35%;
+}
+.github-contact a img {
+  height: 30%;
+  width: 30%;
+  padding-left: 35%;
+}
+.github-contact p {
+  padding-left: 35%;
+}
 }
