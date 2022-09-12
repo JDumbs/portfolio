@@ -52,6 +52,7 @@ h1 {
 @media screen and (max-width: 450px) {
   .sidenav {
     padding-top: 15px;
+    width: 100px;
   }
   .sidenav a {
     font-size: smaller;
