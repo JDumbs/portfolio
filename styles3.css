@@ -1,7 +1,13 @@
 index3.html,
 body {
   font-size: x-large;
-  background-color: gray;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 5)),
+    url(images/pexels-felix-mittermeier-956999.jpg) center no-repeat;
+  background-size: cover;
+}
+* {
+  color: white;
+  letter-spacing: 0.09rem;
 }
 h1 {
   text-align: center;
@@ -52,7 +58,7 @@ h1 {
 @media screen and (max-width: 450px) {
   .sidenav {
     padding-top: 15px;
-    width: 100px;
+    width: 86px;
   }
   .sidenav a {
     font-size: x-small;
@@ -103,9 +109,9 @@ h1 {
     padding-left: 35%;
   }
   .github-contact a img {
-    height: 50%;
-    width: 50%;
-    padding-left: 25%;
+    height: 30%;
+    width: 30%;
+    padding-left: 35%;
   }
   .github-contact p {
     padding-left: 35%;
