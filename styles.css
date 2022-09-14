@@ -16,6 +16,7 @@ h1 {
 * {
   color: white;
   letter-spacing: 0.09rem;
+  font-family: 'Cairo', sans-serif;
 }
 h3 {
   text-align: center;
@@ -69,7 +70,7 @@ h3 {
 @media screen and (max-width: 450px) {
   .sidenav {
     padding-top: 15px;
-    width: 86px;
+    width: 90px;
   }
   .sidenav a {
     font-size: x-small;
