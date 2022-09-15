@@ -1,12 +1,16 @@
 html,
 body {
   font-size: x-large;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 5)),
-    url(images/pexels-felix-mittermeier-956999.jpg) center;
+  background: url(images/pexels-felix-mittermeier-956999.jpg) center;
   background-size: cover;
+}
+html,
+body {
+  background-color: black;
 }
 h1 {
   text-align: center;
+  padding-left: 9.5%;
 }
 * {
   color: white;
@@ -69,16 +73,15 @@ h1 {
   }
 }
 .Hello {
-  padding-left: 30%;
+  padding-left: 37.5%;
   height: 35%;
   width: 35%;
 }
 @media screen and (max-width: 450px) {
   .Hello {
-    padding-left: 30%;
+    padding-left: 35%;
     height: 60%;
     width: 60%;
-    padding-top: 20%;
   }
   .title {
     font-size: medium;
