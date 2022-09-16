@@ -8,9 +8,10 @@ body {
 * {
   color: white;
   letter-spacing: 0.09rem;
-  font-family: 'Cairo', sans-serif;
+  font-family: "Cairo", sans-serif;
 }
-html,body{
+html,
+body {
   background-color: black;
 }
 h1 {
@@ -31,7 +32,7 @@ h3 {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black */
+  background-color: rgb(48, 3, 42); /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
