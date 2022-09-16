@@ -67,7 +67,7 @@ h3 {
 @media screen and (max-width: 450px) {
   .sidenav {
     padding-top: 15px;
-    width: 90px;
+    width: 86px;
   }
   .sidenav a {
     font-size: x-small;
