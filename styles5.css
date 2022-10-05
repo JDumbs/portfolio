@@ -1,0 +1,212 @@
+index.html,
+body {
+  font-size: x-large;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 5)),
+    url(images/pexels-felix-mittermeier-956999.jpg) center no-repeat;
+  background-size: cover;
+  padding-left: 15%;
+}
+html,
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  padding-right: 10%;
+}
+.info {
+  text-align: center;
+}
+* {
+  color: white;
+  letter-spacing: 0.09rem;
+  font-family: "Cairo", sans-serif;
+}
+h3 {
+  text-align: center;
+  padding-right: 10%;
+}
+.intro_header img {
+  height: 20%;
+  width: 20%;
+  padding-left: 35%;
+}
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(48, 3, 42); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.sidenav p {
+  color: white;
+  padding-left: 1%;
+  padding-right: 90%;
+  position: fixed;
+  bottom: 0%;
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: dimgray;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 450px) {
+  .sidenav {
+    padding-top: 15px;
+    width: 86px;
+  }
+  .sidenav a {
+    font-size: x-small;
+  }
+  .sidenav p {
+    font-size: small;
+  }
+}
+/* .skills img {
+  height: 20%;
+  width: 20%;
+  padding-left: 35%; */
+/* } */
+.python img {
+    width: 8rem;
+    position: absolute;
+    left: 20%;
+}
+.html img {
+    width: 7rem;
+    position: absolute;
+    left: 40%;
+}
+.css img {
+    width: 9rem;
+    position: absolute;
+    left: 59%;
+    top: 14.9%;
+}
+.github img {
+    width: 7rem;
+    position: absolute;
+    left: 80%;
+}
+.java img {
+    width: 12rem;
+    position: absolute;
+    left: 17%;
+    bottom: 30%;
+}
+.javascript img {
+    width: 15rem;
+    position: absolute;
+    left: 36%;
+    bottom: 30%;
+}
+.django img {
+    width: 6rem;
+    position: absolute;
+    left: 60%;
+    bottom: 30%;
+}
+.spring img {
+    width: 7rem;
+    position: absolute;
+    left: 80%;
+    bottom: 30%;
+}
+.bootstrap img {
+    width: 4rem;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+}
+
+@media screen and (max-width: 450px) {
+  .python img {
+    width: 4rem;
+    position: absolute;
+    left: 22%;
+  }
+  .html img {
+    width: 4rem;
+    position: absolute;
+    left: 42%;
+  }
+  .css img {
+    width: 5rem;
+    position: absolute;
+    left: 62%;
+    top: 15.7%;
+  }
+  .github img {
+    width: 4rem;
+    position: absolute;
+    left: 82%;
+  }
+  .java img {
+    width: 5rem;
+    position: absolute;
+    left: 22%;
+  }
+  .javascript img {
+    width: 7rem;
+    position: absolute;
+    left: 35%;
+  }
+  .django img {
+    width: 3rem;
+    position: absolute;
+    left: 62%;
+  }
+  .spring img {
+    width: 4rem;
+    position: absolute;
+    left: 82%;
+  }
+  .bootstrap img {
+    width: 4rem;
+    position: absolute;
+    left: 52%;
+  }
+  h1 {
+    text-align: center;
+    padding-left: 17%;
+  }
+  .info {
+    text-align: center;
+    padding-left: 10%;
+  }
+  h3 {
+    text-align: center;
+    padding-right: 0%;
+  }
+  .intro_header img {
+    height: 30%;
+    width: 30%;
+    padding-left: 5%;
+  }
+  .intro_header,
+  h3 {
+    padding-left: 5%;
+    text-align: center;
+  }
+}

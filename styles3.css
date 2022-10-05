@@ -73,57 +73,61 @@ h1 {
   }
 }
 .gmail a img {
-  height: 30%;
-  width: 30%;
-  padding-left: 36%;
-}
-.gmail p {
-  padding-left: 35%;
+  height: 17%;
+  width: 15%;
+  padding-left: 30%;
+  position: absolute;
 }
 .linkedin-contact a img {
-  height: 20%;
-  width: 20%;
-  padding-left: 40%;
-}
-.linkedin-contact p {
-  padding-left: 35%;
+  height: 16%;
+  width: 10%;
+  padding-left: 43%;
+  position: absolute;
+  top: 25%;
 }
 .github-contact a img {
-  height: 20%;
-  width: 20%;
-  padding-left: 40%;
+  height: 15%;
+  width: 10%;
+  padding-left: 54%;
+  position: absolute;
+  top: 25%;
 }
-.github-contact p {
-  padding-left: 35%;
+.end {
+  text-align: center;
+  margin-top: 13%;
 }
 @media screen and (max-width: 450px) {
   .gmail a img {
-    height: 40%;
-    width: 40%;
-    padding-left: 30%;
+    height: 17%;
+    width: 15%;
+    padding-left: 32%;
+    position: absolute;
   }
-  .gmail p {
-    padding-left: 35%;
-  }
+  
   .linkedin-contact a img {
-    height: 30%;
-    width: 30%;
-    padding-left: 35%;
-  }
-  .linkedin-contact p {
-    padding-left: 35%;
+    height: 16%;
+    width: 10%;
+    padding-left: 45%;
+    position: absolute;
+    top: 10%;
   }
   .github-contact a img {
-    height: 30%;
-    width: 30%;
-    padding-left: 35%;
-  }
-  .github-contact p {
-    padding-left: 35%;
+    height: 15%;
+    width: 10%;
+    padding-left: 56%;
+    position: absolute;
+    top: 10%;
   }
   h1 {
     text-align: center;
     font-size: large;
     padding-left: 10%;
+  }
+  .end {
+    position: absolute;
+    text-align: center;
+    margin-top: 18%;
+    width: 70%;
+    padding-left: 20%;
   }
 }
