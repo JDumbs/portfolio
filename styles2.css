@@ -83,6 +83,7 @@ h3 {
 }
 .project-2 p {
   text-align: center;
+  padding-left: 5%;
 }
 .project-1 a img {
   padding-left: 25%;
@@ -91,6 +92,7 @@ h3 {
 }
 .project-1 p {
   text-align: center;
+  padding-left: 5%;
 }
 @media screen and (max-width: 450px) {
   .project-2 a img {
